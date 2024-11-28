@@ -1,0 +1,38 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background: #171717; */
+  background: #dadada;
+  border-radius: 1em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.active {
+  background-color: #e7eaf5;
+}
+
+/* Xóa các nút tăng giảm trong Chrome, Safari, Edge */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Xóa kiểu mặc định của input số */
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+  appearance: textfield; /* Các trình duyệt khác */
+}
+
+.color-size .ant-upload-select {
+  height: 56px !important;
+}

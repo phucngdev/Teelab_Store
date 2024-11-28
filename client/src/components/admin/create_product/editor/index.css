@@ -1,0 +1,12 @@
+.ck.ck-toolbar,
+.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
+  border: 1px solid rgb(229 231 235) !important;
+}
+
+.ck.ck-toolbar {
+  border-radius: 20px 20px 0 0 !important;
+}
+
+.ck.ck-editor__main > .ck-editor__editable {
+  border-radius: 0 0 20px 20px !important;
+}
